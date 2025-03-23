@@ -18,5 +18,5 @@ function draw() {
     const canvas = document.getElementById("maze");
     const ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillRect(p.x * 20, p.y * 20, 20, 20);
+    ctx.fillRect(player.x * 20, player.y * 20, 20, 20);
 }
